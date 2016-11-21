@@ -1,0 +1,42 @@
+body {
+  background-color: lightblue;
+  background-image: url('https://www.walldevil.com/wallpapers/w02/771994-blue-background-funny-minimalistic-paper-rocks-scissors.jpg');
+  background-size: cover;
+}
+
+h1{
+  font-family: courier;
+  text-align: center;
+}
+
+h3{
+font-family: courier;
+text-align: center;
+font: bold;
+
+}
+
+p{
+  font-family: courier;
+  text-align: center;
+}
+
+li{
+  font-family: courier;
+  text-align: left;
+  margin-left: 80px;
+}
+
+a{
+  font-family: courier;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+
+}
+
+a:hover{
+  text-decoration: none;
+  color: black;
+}
