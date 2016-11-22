@@ -1,6 +1,6 @@
 require ('sinatra')
 require ('sinatra/contrib/all')
-require_relative('models/rock_paper_scissors')
+require_relative('models/game')
 require ('json')
 
 
