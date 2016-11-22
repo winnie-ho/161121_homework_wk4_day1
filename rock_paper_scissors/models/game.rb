@@ -5,18 +5,12 @@ class Game
   def initialize (player, computer)
     @player = player
     @computer = computer
-    @rps=["rock", "paper", "scissors"]
-  end
-
-  
-
-  def computer_play()
-    @computer = @rps[rand]
   end
 
 
 
   def who_wins()
+
     if @computer == "rock" && @player == "scissors"
       return "Computer wins"
     elsif @computer == "rock" && @player == "paper"

@@ -1,19 +1,18 @@
 require 'minitest/autorun'
 require 'minitest/rg'
-require_relative '../models/rock_paper_scissors'
+require_relative '../models/game'
 
-class TestRockPaperScissors < Minitest::Test
+class TestGame < Minitest::Test
 
   def setup
     @game1 = Game.new("paper", "rock")
     @game2 = Game.new("scissors", "rock")
     @game3 = Game.new("rock", "rock")
-
   end
 
 
-  def test_computer_play
-    @game1.computer_play()
+  def test_computer_picks_random
+    @game1.computer
     assert_equal("rock"||"paper"||"scissors", @game1.computer)
   end
 
